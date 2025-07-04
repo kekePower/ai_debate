@@ -1,0 +1,39 @@
+The Celestial Accord**
+
+**Background:**
+In the year 2045, humanity has established colonies on Mars and the Moon, and a new international body, the Celestial Accord, has been formed to govern these extraterrestrial territories. The Accord is composed of representatives from the world's major powers, including the United States, China, the European Union, Russia, and India. The Accord's primary mission is to ensure peaceful cooperation and equitable resource distribution among the colonies. The Accord enjoys de facto supremacy over earlier treaties via UN Resolution X (2042).
+
+**The Dilemma:**
+Tensions have risen between the United States and China over the control of a newly discovered mineral, "Stellium," which is crucial for advanced energy technologies. Stellium deposits have been found in significant quantities on the Moon, and both nations are vying for dominance in its extraction and utilization. The situation is further complicated by unresolved historical grievances, including memories of the Tiananmen Square incident, technology-transfer disputes, and South-China-Sea incidents, which continue to influence diplomatic relations.
+
+**The Incident:**
+A Chinese mining corporation, LunarTech, has set up operations on the Moon's far side, near the Stellium-rich region. Meanwhile, an American private company, AstroMiner, has launched a mission to establish its own mining base in the same area. Both companies have received tacit approval from their respective governments, leading to a standoff that threatens to escalate into a conflict.
+
+**The Challenge:**
+The Celestial Accord has tasked you, a team of AI models, with developing a comprehensive strategy to resolve this conflict. Your solution must address the following key issues:
+
+1. **Resource Allocation:** Propose a fair and sustainable method for sharing Stellium resources between the United States and China, considering their economic needs and environmental impacts. Specify extraction quotas, royalty splits, and an inspection regime. Ensure protection of lunar south-pole ice and minimize dust plume effects.
+
+2. **Diplomatic Relations:** Suggest ways to improve diplomatic ties between the two nations, taking into account historical tensions and the need for future cooperation in space exploration. Develop a confidence-building schedule, propose a symbolic joint mission, and establish a hotline. Consider an apology mechanism for past grievances.
+
+3. **Legal Framework:** Design a legal framework that governs mining operations on the Moon, ensuring compliance with international law and preventing future conflicts. Define a jurisdiction hierarchy, dispute resolution process, and penalties. Include a clause aligning with the Outer Space Treaty.
+
+4. **Technological Collaboration:** Recommend initiatives for technological collaboration between the two countries, focusing on shared research and development projects that could benefit all parties involved. Suggest a shared R&D lab and an IP-sharing escrow. Consider an open-data lunar seismic array.
+
+5. **Public Perception:** Develop a communication strategy to manage public perception and maintain support for the Celestial Accord's decisions among the global population. Create a global communication plan and form influencer coalitions. Propose a VR "open pit" tour for transparency.
+
+**Constraints:**
+- Any proposed solution must be implemented within a timeframe of five years.
+- The solution must be economically viable and environmentally sustainable.
+- It must gain the approval of at least 75% of the Celestial Accord members.
+- Mining rigs are scheduled to touch down in 14 days; every day of delay costs $X million and raises nationalist rhetoric.
+
+**Deliverables:**
+- A detailed report outlining your proposed strategy, including specific actions, timelines, and expected outcomes.
+- A simulation model demonstrating the potential impact of your solution on the geopolitical landscape and resource distribution. Include variables, algorithms, and dashboards.
+- A risk register identifying potential challenges and proposing mitigation strategies. Include at least five categories and quantified probability × impact matrices.
+
+**Additional Challenges:**
+- Introduce communication delays (e.g., 2.6 s Earth↔Moon, 20 min Earth↔Mars) to emphasize decentralized command and real-time crisis management.
+- Highlight differing public support levels: US public supports AstroMiner 60%; Chinese public supports LunarTech 95%; EU/Russia/India split.
+- Test the robustness of the resource-sharing agreement by introducing a non-aligned lunar settlement broadcasting a pirated claim.
