@@ -2,6 +2,13 @@
 
 A Python script for simulating a 3-way scenario between AI models (Claude, Gemini, and any OpenAI-compatible LLM). Easily customize prompts, models, and scenario files to experiment with different AI personalities and collaborative or adversarial tasks.
 
+The whole project is quite a mess at the moment with tons of prompts, different Python scripts and so on, so I invite you to play with the scripts, add your own prompts and personas. Anything is possible and I invite you to experiment and have fun.
+
+Just take a look at the scripts. They should be fairly self-explanatory and easy to use.
+There is a small "bug" in `book2.py` where two of the files are hard-coded, so you need to change them to your own files. They're located close to the end of the file.
+
+Contributions are always welcome! Just keep in mind that this is meant as a fun tool that *could* be helpful if you always keep the human-in-the-loop aspect in mind. The `personas` I created are quite... uhm... eccentric and I invite you to experiment with your own personas.
+
 ---
 
 ## How It Works
@@ -82,6 +89,49 @@ python ai_scenario_engine.py
 
 - Python 3.8+
 - Packages: `anthropic`, `google-generativeai`, `openai`, `python-dotenv`
+
+---
+
+## Scenario Engine Script Variants
+
+This project contains several scenario engine scripts, each with a different focus and feature set:
+
+### 1. `ai_scenario_engine.py` (Original)
+- **Purpose:** Simulates a structured, multi-agent AI debate or scenario discussion, with three AI "players" (Claude, Gemini, and a third OpenAI-compatible LLM) taking turns to reach a consensus or produce a final artifact.
+- **Player Order:** Fixed (Claude → Gemini → Tianxia).
+- **Prompts/Outputs:** Uses prompts from the `prompts/` and scenario files from `solution/`. Outputs conversation logs, a summary, and a final artifact (e.g., a manifesto or treaty) in the `solution/` directory.
+- **Use Case:** General AI debate or scenario simulation.
+
+### 2. `book.py`
+- **Purpose:** A creative variant focused on collaborative character/world-building, using three AI players with prompts and outputs tailored for fiction or RPG design.
+- **Player Order:** Fixed.
+- **Prompts/Outputs:** Uses prompts from the `book/` directory and scenario files from `book2/`. Outputs conversation logs, a summary, and a "Character Gallery" (detailed character profiles) in the `book2/` directory.
+- **Special Features:**
+  - Artifact extraction is tailored for character galleries.
+  - Player 3 can use a Chinese LLM (Mistral or DeepSeek).
+  - Adjusted safety settings for Gemini.
+- **Use Case:** Collaborative fiction or RPG character/world design.
+
+### 3. `book2.py`
+- **Purpose:** A further creative variant with **randomized player order** for each run, designed to reduce first-speaker bias and add variety to the collaborative process.
+- **Player Order:** Randomized at each run.
+- **Prompts/Outputs:** Similar to `book.py`, but outputs include both a world description and a character gallery, written to the `book2/` directory with distinct file names.
+- **Special Features:**
+  - Randomizes player order at startup.
+  - Different artifact/summary extraction functions, tailored for world-building.
+  - Uses specific termination phrases and output file naming.
+- **Use Case:** Dynamic, creative world/character-building with less predictable conversational flow.
+
+---
+
+### Usage Notes
+- All scripts require valid API keys for Anthropic, Google Gemini, and (optionally) an OpenAI-compatible endpoint. Set these in your environment or `.env` file.
+- To run a script, use:
+  ```bash
+  python ai_scenario_engine.py   # or book.py, or book2.py
+  ```
+- Output files are written to their respective directories (`solution/` or `book2/`).
+- See comments in each script for more details on customization and output formats.
 
 ---
 
